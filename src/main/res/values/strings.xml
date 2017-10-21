@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miku Compass</string>
+	<string-array name="theme_array">
+	    <item name="theme-1">Miku</item>
+	    <item name="theme-2">Gumi</item>
+	</string-array>
+
+	<string name="cate_title">Setting</string>
+	<string name="pre_title">Themes</string>
+	<string name="pre_summary">Select a Theme</string>
+	<string name="dialog_title">Themes</string>	
+
+<!--	<string name="toast_text">Your device does not have a Light</string> -->
+
+</resources>

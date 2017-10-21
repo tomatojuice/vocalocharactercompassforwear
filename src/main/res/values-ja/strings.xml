@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Miku Compass(ミクコンパス)</string>
+	<string-array name="theme_array">
+	    <item name="theme-1">Miku</item>
+	    <item name="theme-2">Gumi</item>
+	</string-array>
+
+	<string name="cate_title">設定</string>
+	<string name="pre_title">テーマ</string>
+	<string name="pre_summary">テーマ選択</string>
+	<string name="dialog_title">テーマ</string>	
+
+<!--	<string name="toast_text">ご利用の機種はライトが利用出来ません</string> -->
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:deviceIds="wear" >
+
+	<SurfaceView
+        	    android:id="@+id/compassView"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="match_parent"
+        	    android:layout_alignParentBottom="true"
+        	    android:layout_centerHorizontal="true"
+				android:fitsSystemWindows="true" />
+
+	<TextView
+        android:id="@+id/text_azimuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/compassView"
+        android:layout_centerHorizontal="false"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_gravity="center_horizontal"
+        android:fitsSystemWindows="true"
+		android:gravity="center_horizontal" />
+
+</android.support.wearable.view.BoxInsetLayout>

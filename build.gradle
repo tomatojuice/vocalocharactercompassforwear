@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+    defaultConfig {
+        applicationId "tomatojuice.sakura.ne.jp.vocalocharactercompass"
+//        applicationId "tomatojuice.sakura.ne.jp.vocalocharactercompassforwear"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 12
+        versionName "2.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.google.android.support:wearable:2.0.1'
+    provided 'com.google.android.wearable:wearable:2.0.1'
+    compile 'com.google.android.gms:play-services-wearable:11.0.4'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:support-vector-drawable:25.2.0'
+}
